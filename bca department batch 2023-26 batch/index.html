@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>BCA Department - Batch 2023-26 | ADP College</title>
+  <link rel="stylesheet" href="style.css"/>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;900&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+</head>
+<body>
+
+  <!-- ===== WELCOME SCREEN (click to enter) ===== -->
+  <div id="welcome-screen">
+    <div class="welcome-content">
+      <div class="college-badge">ADP COLLEGE</div>
+      <h1 class="welcome-title">BCA DEPARTMENT</h1>
+      <p class="welcome-sub">Batch 2023 – 2026</p>
+      <div class="click-hint">
+        <span>Click anywhere to enter</span>
+        <div class="pulse-ring"></div>
+      </div>
+    </div>
+    <div class="particles" id="particles"></div>
+  </div>
+
+  <!-- ===== WELCOME ANIMATION OVERLAY ===== -->
+  <div id="welcome-overlay" class="hidden">
+    <div class="overlay-text">
+      <span class="hey">HEY</span>
+      <span class="wave-text">WELCOME TO</span>
+      <span class="dept-text">BCA DEPARTMENT</span>
+      <span class="college-text">OF ADP COLLEGE</span>
+      <div class="overlay-loader"></div>
+    </div>
+  </div>
+
+  <!-- ===== MAIN WEBSITE ===== -->
+  <div id="main-site" class="hidden">
+
+    <!-- NAV -->
+    <nav class="navbar">
+      <div class="nav-logo">BCA <span>2023-26</span></div>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#faculty">Faculty</a></li>
+        <li><a href="#memories">Memories</a></li>
+      </ul>
+    </nav>
+
+    <!-- HERO SECTION -->
+    <section class="hero" id="home">
+      <div class="hero-content">
+        <h1>BCA Department</h1>
+        <h2>Batch <span>2023 – 2026</span></h2>
+        <p>ADP College · Where Futures Are Coded</p>
+        <a href="#about" class="hero-btn">Explore</a>
+      </div>
+      <div class="hero-shapes">
+        <div class="shape s1"></div>
+        <div class="shape s2"></div>
+        <div class="shape s3"></div>
+      </div>
+    </section>
+
+    <!-- ABOUT SECTION -->
+    <section class="about-section" id="about">
+      <div class="about-container">
+        <div class="about-text">
+          <h2 class="section-title">About <span>Our Batch</span></h2>
+          <p>Welcome to the BCA Department Batch 2023–26 of ADP College. We are a passionate group of future tech leaders, developers, and innovators. Our journey through Bachelor of Computer Applications has been filled with learning, friendship, and unforgettable memories.</p>
+          <p>From coding marathons to project exhibitions, our batch has always shown dedication and team spirit. This page is a tribute to our incredible three-year journey together.</p>
+          <div class="about-stats">
+            <div class="stat"><span class="stat-num">3</span><span class="stat-label">Years</span></div>
+            <div class="stat"><span class="stat-num">∞</span><span class="stat-label">Memories</span></div>
+            <div class="stat"><span class="stat-num">1</span><span class="stat-label">Family</span></div>
+          </div>
+        </div>
+        <div class="about-video-corner">
+          <div class="video-frame">
+            <video autoplay muted loop playsinline>
+              <source src="bca-video.mp4" type="video/mp4"/>
+            </video>
+            <div class="video-label">Our Batch Video</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FACULTY SECTION -->
+    <section class="faculty-section" id="faculty">
+      <h2 class="section-title center">Our <span>Faculty</span></h2>
+      <p class="section-sub">The mentors who guided us through our journey</p>
+      <div class="faculty-cards">
+
+        <!-- Faculty 1 -->
+        <div class="faculty-card">
+          <div class="faculty-avatar">
+            <div class="avatar-icon"><i class="fas fa-user-tie"></i></div>
+          </div>
+          <div class="faculty-info">
+            <h3>Deep Jyoti Sir</h3>
+            <p class="faculty-role">BCA Faculty · ADP College</p>
+            <p class="faculty-number"><i class="fas fa-phone-alt"></i> 98642 42722</p>
+            <div class="faculty-actions">
+              <a href="https://wa.me/919864242722" target="_blank" class="action-btn whatsapp-btn" title="WhatsApp Deep Jyoti Sir">
+                <i class="fab fa-whatsapp"></i>
+                <span>WhatsApp</span>
+              </a>
+              <a href="tel:+919864242722" class="action-btn call-btn" title="Call Deep Jyoti Sir">
+                <i class="fas fa-phone-alt"></i>
+                <span>Call</span>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Faculty 2 -->
+        <div class="faculty-card">
+          <div class="faculty-avatar">
+            <div class="avatar-icon"><i class="fas fa-user-tie"></i></div>
+          </div>
+          <div class="faculty-info">
+            <h3>Siddharth Sir</h3>
+            <p class="faculty-role">BCA Faculty · ADP College</p>
+            <p class="faculty-number"><i class="fas fa-phone-alt"></i> 91019 54267</p>
+            <div class="faculty-actions">
+              <a href="https://wa.me/919101954267" target="_blank" class="action-btn whatsapp-btn" title="WhatsApp Siddharth Sir">
+                <i class="fab fa-whatsapp"></i>
+                <span>WhatsApp</span>
+              </a>
+              <a href="tel:+919101954267" class="action-btn call-btn" title="Call Siddharth Sir">
+                <i class="fas fa-phone-alt"></i>
+                <span>Call</span>
+              </a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- MEMORIES SECTION -->
+    <section class="memories-section" id="memories">
+      <h2 class="section-title center">Our <span>Memories</span></h2>
+      <p class="section-sub">Moments we'll cherish forever</p>
+      <div class="memories-grid">
+
+        <div class="memory-card" style="--delay:0s">
+          <div class="memory-label">Memories</div>
+          <img src="memory1.jpeg" alt="Memory 1" loading="lazy"/>
+          <div class="memory-overlay"><i class="fas fa-heart"></i></div>
+        </div>
+
+        <div class="memory-card" style="--delay:0.1s">
+          <div class="memory-label">Memories</div>
+          <img src="memory2.jpeg" alt="Memory 2" loading="lazy"/>
+          <div class="memory-overlay"><i class="fas fa-heart"></i></div>
+        </div>
+
+        <div class="memory-card" style="--delay:0.2s">
+          <div class="memory-label">Memories</div>
+          <img src="memory3.jpeg" alt="Memory 3" loading="lazy"/>
+          <div class="memory-overlay"><i class="fas fa-heart"></i></div>
+        </div>
+
+        <div class="memory-card" style="--delay:0.3s">
+          <div class="memory-label">Memories</div>
+          <img src="memory4.jpeg" alt="Memory 4" loading="lazy"/>
+          <div class="memory-overlay"><i class="fas fa-heart"></i></div>
+        </div>
+
+        <div class="memory-card" style="--delay:0.4s">
+          <div class="memory-label">Memories</div>
+          <img src="memory5.jpeg" alt="Memory 5" loading="lazy"/>
+          <div class="memory-overlay"><i class="fas fa-heart"></i></div>
+        </div>
+
+        <div class="memory-card batch-photo-card" style="--delay:0.5s">
+          <div class="memory-label">Memories</div>
+          <img src="bcaphoto.jpeg" alt="Batch Photo" loading="lazy"/>
+          <div class="memory-overlay"><i class="fas fa-heart"></i></div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- GOODBYE / FAREWELL SECTION -->
+    <section class="farewell-section" id="farewell">
+      <div class="farewell-bg"></div>
+      <div class="farewell-content">
+        <div class="farewell-animation">
+          <div class="farewell-stars">
+            <span></span><span></span><span></span><span></span><span></span>
+            <span></span><span></span><span></span><span></span><span></span>
+          </div>
+          <h2 class="farewell-title">
+            <span class="f-thanks">Thanks</span>
+            <span class="f-for">for</span>
+            <span class="f-visiting">Visiting</span>
+          </h2>
+          <p class="farewell-sub">the website of</p>
+          <h3 class="farewell-batch">BCA Department · Batch 2023–26</h3>
+          <p class="farewell-college">ADP College</p>
+          <div class="farewell-hearts">
+            <span>❤️</span><span>💙</span><span>💚</span><span>💛</span><span>🧡</span>
+          </div>
+          <p class="farewell-quote">"The best is yet to come. Keep coding, keep dreaming."</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+      <p>© 2026 BCA Department · Batch 2023–26 · ADP College</p>
+      <p>Made with <i class="fas fa-heart" style="color:#e74c3c"></i> by Batch 2023–26</p>
+    </footer>
+
+  </div><!-- end #main-site -->
+
+  <script src="script.js"></script>
+</body>
+</html>
